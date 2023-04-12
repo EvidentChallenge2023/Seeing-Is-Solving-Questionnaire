@@ -1,0 +1,9 @@
+coverage
+pytest
+pylint
+pynput
+mock
+pycodestyle
+rx
+notebook
+testbook
