@@ -4,6 +4,9 @@ pylint
 pynput
 mock
 pycodestyle
+pytest-benchmark
 rx
 notebook
 testbook
+jupyterlab
+h5py
