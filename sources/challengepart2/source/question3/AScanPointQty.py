@@ -1,0 +1,5 @@
+
+
+PROBLEM_A_PTS_QTY = [0, 5, 10, 30]
+
+PROBLEM_B_PTS_QTY = [5, 15, 35]

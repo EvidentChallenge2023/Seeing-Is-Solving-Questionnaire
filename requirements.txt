@@ -10,3 +10,4 @@ notebook
 testbook
 jupyterlab
 h5py
+tifffile

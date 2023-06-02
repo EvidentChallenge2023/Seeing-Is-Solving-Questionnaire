@@ -149,11 +149,13 @@ Pour rouler les test (L'environnement virtuel doit être lancé d'abord):
 
     pytest
 
+**_ATTENTION : Si vous obtenez une erreur, tenter d'utiliser un invite de commande (cmd) au lieu du powershell dans VSCode._**
+
 ---
 
 Pour rouler pylint (L'environnement virtuel doit être lancé d'abord):
 
-    pycodestyle --first --exclude='*/exported_*' --ignore=E501,W504 {LE PATH DE VOTRE REPO}\src
+    pycodestyle --config={LE PATH DE VOTRE REPO}\pycodestyle.py {LE PATH DE VOTRE REPO}\sources
 
 Pour info sur les normes PEP8 : https://www.python.org/dev/peps/pep-0008/
 
@@ -169,11 +171,13 @@ To run the tests (The virtual environment must be launched first):
 
     pytest
 
+**_CAUTION: If you get an error, try using a command prompt(cmd) instead of the powershell into VSCode._**
+
 ---
 
 To run pylint (The virtual environment must be launched first):
 
-    pycodestyle --first --exclude='*/exportd_*' --ignore=E501,W504 {YOUR REPO PATH}\src
+    pycodestyle --config={LE PATH DE VOTRE REPO}\pycodestyle.py {LE PATH DE VOTRE REPO}\sources
 
 For PEP8 info: https://www.python.org/dev/peps/pep-0008/
 
@@ -195,7 +199,7 @@ For PEP8 info: https://www.python.org/dev/peps/pep-0008/
 
 Pour débuter le défi, nous vous invitons à consulter le notebook suivant :
 
-[ÉnoncéPrincipal-MainStatement notebook](source/questions/EnoncePrincipal_MainStatement.ipynb)
+[ÉnoncéPrincipal-MainStatement notebook](sources/challengepart2/EnoncePrincipal_MainStatement.ipynb)
 
 **Bon défi à tous, amusez-vous bien!!!**
 
@@ -203,20 +207,20 @@ Pour débuter le défi, nous vous invitons à consulter le notebook suivant :
 
 To start the challenge, we invite you to consult the following notebook:
 
-[ÉnoncéPrincipal-MainStatement notebook](source/questions/EnoncePrincipal_MainStatement.ipynb)
+[ÉnoncéPrincipal-MainStatement notebook](sources/challengepart2/EnoncePrincipal_MainStatement.ipynb)
 
 **Good challenge to all, have fun!!!**
 
 
 # Comment la compétition se déroulera?
 
-- La compétition sera ouverte le 20 mai au matin, dès que le courriel sera envoyé à tous les participants et prendra fin le 27 mai à 23h59. À partir de 23h59, il ne sera plus possible de soumettre les réponses sur la copie de votre questionnaire Github Classroom. 
-- Après ce délai, les branches "main" seront clonées par les correcteurs afin d'effectuer la correction. 
+- La compétition sera ouverte le 3 juin au matin, dès que le courriel sera envoyé à tous les participants et prendra fin le 17 juin à 23h59. À partir de 23h59, il ne sera plus possible de soumettre les réponses sur la copie de votre questionnaire Github Classroom. 
+- Après ce délai, les branches **"main"** seront clonées par les correcteurs afin d'effectuer la correction. 
 - **----------ATTENTION : Aucune autre branche ne sera corrigée. ----------**
-- L'annonce du classement préliminaire sera faite le 30 juin 2023 au plus tard. Les candidats au classement seront alors contactés afin de remettre la documentation nécessaire afin de récupérer le prix (preuve de fréquentation scolaire et autres documents vous seront exigés). Ces derniers auront un délai de 7 jours pour transmettre les documents requis. Après ce délai, la prochaine équipe au classement sera contactée. La première équipe à fournir les documents nécessaires sera déterminée équipe gagnante. 
+- L'annonce du classement préliminaire sera faite le 30 juillet 2023 au plus tard. Les candidats au classement seront alors contactés afin de remettre la documentation nécessaire afin de récupérer le prix (preuve de fréquentation scolaire et autres documents vous seront exigés). Ces derniers auront un délai de 7 jours pour transmettre les documents requis. Après ce délai, la prochaine équipe au classement sera contactée. La première équipe à fournir les documents nécessaires sera déterminée équipe gagnante. 
 - Le dévoilement du ou des gagnants officiels sera fait le 31 août 2023 au plus tard. Une cérémonie de remise de prix sera organisée dans le mois suivant la détermination du gagnant officiel.
 - La compétition pourra être fait seul ou en équipe avec un maximum de 3 personnes par équipe. Il sera de votre responsabilité de créer vos équipes sur Github Classroom. Le premier à aller se connecter à la Classroom aura l'opportunité de créer l'équipe. Il devra alors transmettre à ses coéquipiers le nom de l'équipe afin que ces derniers joignent la bonne équipe à leur première connexion à la Classroom.
-- Création d'équipe par erreur => si vous créer une équipe par erreur, nous vous invitons à nous contacter à cette adresse courriel afin que nous puissions supprimer l'équipe : challenge@evidentscientific.com
+- Création d'équipe par erreur => si vous créer une équipe par erreur, nous vous invitons à nous contacter à cette adresse courriel afin que nous puissions supprimer l'équipe : **challenge@evidentscientific.com**
 - Pendant la compétition, afin d'être équitable envers tous les participants, aucune question par courriel sur la compétition, que ce soit en lien avec l'installation des outils ou le contenu des questions ne sera répondues. Si une question comporte une erreur, nous vous invitons à répondre à la question du mieux que vous le pouvez et à nous indiquer sur le notebook de la question quelle est l'erreur et comment vous avez fait pour régler le problème. Nous effectuerons une correction équitable envers toutes les équipes en considérant les erreurs dans le questionnaire après coups. Évidemment nous souhaitons que le questionnaire ne comporte pas d'erreur dans le meilleur des mondes possibles. Mais rien n'est parfait, particulièrement en ingénierie, nous le savons!
 - Tricherie => toute trace de tricherie conduira à une expulsion de la compétition. 
 - Voici ce qui est considéré comme une trace de tricherie :
@@ -250,13 +254,13 @@ Nous vous souhaitons un très bon défi, amusez-vous bien 😊
 
 # How will the competition proceed?
 
-- The competition will open on the morning of May 20th, as soon as the email is sent to all participants and will end on May 27th at 11:59 PM. After 11:59 PM, it will no longer be possible to submit answers on your Github Classroom questionnaire copy.
-- After this deadline, the "main" branches will be cloned by the graders for evaluation.
+- The competition will open on the morning of June 3rd, as soon as the email is sent to all participants and will end on June 17th at 11:59 PM. After 11:59 PM, it will no longer be possible to submit answers on your Github Classroom questionnaire copy.
+- After this deadline, the **"main"** branches will be cloned by the graders for evaluation.
 - **----------ATTENTION: No other branches will be evaluated. ----------**
-- The preliminary ranking announcement will be made no later than June 30th, 2023. The ranking candidates will be contacted to provide the necessary documentation to claim the prize (proof of school attendance and other required documents). They will have a 7-day period to submit the required documents. After this period, the next team in the ranking will be contacted. The first team to provide the necessary documents will be determined as the winning team.
+- The preliminary ranking announcement will be made no later than July 30th, 2023. The ranking candidates will be contacted to provide the necessary documentation to claim the prize (proof of school attendance and other required documents). They will have a 7-day period to submit the required documents. After this period, the next team in the ranking will be contacted. The first team to provide the necessary documents will be determined as the winning team.
 - The official winner(s) announcement will be made no later than August 31st, 2023. An award ceremony will be organized within the month following the determination of the official winner.
 - The competition can be done individually or in a team with a maximum of 3 team members. It will be your responsibility to create your teams on Github Classroom. The first person to log in to the Classroom will have the opportunity to create the team. They will then need to inform their teammates of the team name so that they can join the correct team upon their first login to the Classroom.
-- Team Creation Mistake: If you accidentally create a team, please contact us at this email address so that we can delete the team: challenge@evidentscientific.com.
+- Team Creation Mistake: If you accidentally create a team, please contact us at this email address so that we can delete the team: **challenge@evidentscientific.com**.
 - During the competition, to ensure fairness to all participants, no questions regarding the competition, whether related to tool installation or question content, will be answered via email. If a question contains an error, we encourage you to answer the question to the best of your ability and indicate on the question's notebook what the error is and how you resolved it. We will ensure fair evaluation for all teams by considering the errors in the questionnaire afterwards. Of course, we aim for the questionnaire to be error-free in an ideal world, but nothing is perfect, especially in engineering, as we know!
 - Cheating: Any evidence of cheating will result in disqualification from the competition.
 - Here's what is considered evidence of cheating:
